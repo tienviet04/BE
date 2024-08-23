@@ -1,0 +1,29 @@
+{
+  "name": "node_typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "fetch": "node src/controllers/fetchMovies.js",
+    "cartoon": "node src/controllers/fetchCartoon.js",
+    "all": "node src/controllers/fetchAll.js",
+    "new": "node src/controllers/fetchNew.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "mongoose": "^8.2.2",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "http-status-codes": "^2.3.0",
+    "joi": "^17.11.0"
+  }
+}
